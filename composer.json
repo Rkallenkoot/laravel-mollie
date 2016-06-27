@@ -18,15 +18,15 @@
   ],
   "repositories": [
     {
-      "type": "vcs",
-      "url":  "git@github.com:Rkallenkoot/mollie-api-php.git"
+      "type": "git",
+      "url":  "https://github.com/Rkallenkoot/mollie-api-php"
     }
   ],
   "require": {
     "php": "^5.5.9 || ^7.0",
     "illuminate/contracts": "5.0.* || 5.1.* || 5.2.* || 5.3.*",
     "illuminate/support": "5.0.* || 5.1.* || 5.2.* || 5.3.*",
-    "rkallenkoot/mollie-api-php": "dev-subscription_cancelling"
+    "mollie/mollie-api-php": "dev-master"
   },
   "require-dev": {
     "graham-campbell/testbench": "^3.1",
